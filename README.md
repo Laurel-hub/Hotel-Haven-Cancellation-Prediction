@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Hotel booking cancellations present a significant operational and financial challenge in the hospitality industry. High cancellation rates lead to lost revenue, inefficient capacity planning, and suboptimal resource allocation.
 
@@ -15,7 +15,7 @@ This project develops a **predictive machine learning solution** to identify boo
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Analyse booking and customer characteristics associated with cancellation behaviour  
 - Build predictive models to classify whether a booking will be cancelled  
@@ -24,7 +24,7 @@ This project develops a **predictive machine learning solution** to identify boo
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The dataset consists of historical hotel booking records containing features such as:
 
@@ -40,7 +40,7 @@ The target variable is **booking status** (Cancelled vs Not Cancelled).
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 
 - Verified data quality and corrected inconsistencies  
 - Handled missing values and ensured appropriate data types  
@@ -48,7 +48,7 @@ The target variable is **booking status** (Cancelled vs Not Cancelled).
 
 ---
 
-## 🛠 Feature Engineering & Preprocessing
+## Feature Engineering & Preprocessing
 
 - Separated input features from the target variable  
 - Encoded categorical variables appropriately  
@@ -57,7 +57,7 @@ The target variable is **booking status** (Cancelled vs Not Cancelled).
 
 ---
 
-## 🤖 Predictive Modelling Approach
+## Predictive Modelling Approach
 
 Multiple machine learning models were trained and evaluated to assess performance and robustness. Model comparison focused on achieving a balance between:
 
@@ -69,7 +69,7 @@ Ensemble-based approaches demonstrated strong predictive performance.
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 - **Lead time** is the strongest predictor of cancellation, with longer lead times showing significantly higher risk  
 - **Higher booking prices** are associated with increased cancellation likelihood  
@@ -78,7 +78,7 @@ Ensemble-based approaches demonstrated strong predictive performance.
 
 ---
 
-## ✅ Model Performance Summary
+## Model Performance Summary
 
 - Successfully identified a large proportion of cancelled bookings, enabling early intervention  
 - Retained most non-cancelled bookings, reducing unnecessary operational actions  
@@ -86,7 +86,7 @@ Ensemble-based approaches demonstrated strong predictive performance.
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 Insights from this model can be used to:
 
@@ -97,7 +97,7 @@ Insights from this model can be used to:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Predictions are based solely on historical booking patterns  
 - External factors such as economic conditions or travel disruptions are not explicitly captured  
@@ -105,7 +105,7 @@ Insights from this model can be used to:
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - Integrate real-time booking behaviour and customer interaction data  
 - Apply model explainability techniques such as SHAP values  
